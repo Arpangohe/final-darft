@@ -1,0 +1,23 @@
+SDLC
+01. Jira Software
+		 Create an Templete on Jira 
+1. Module
+		1.Front-End
+		2.Back-End
+		3.Data-Base
+		4.Deployment
+
+2.Sub-Module
+		1. Landing/ Home-page
+		2. Registration Page
+		3. Login Page
+		4. Dash-Board
+		  a. User
+		  b. Admin
+
+3. Issue
+	a. Epic (Main Module) (long term duration)
+		a.a. Sprint (for short term duration) (its not an issue)
+	b. Story
+	c. Task
+	d. Bug

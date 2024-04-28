@@ -1,0 +1,233 @@
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    align-items: center;
+    background-color: rgb(63, 56, 37);
+    padding: 10px;
+    margin: 0px;
+}
+
+.navbarli img{
+    width: 100px;
+}
+.midnavbar{
+    display: flex;
+    list-style-type: none;
+}
+
+.midnavbar li a{
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(240, 0, 168);
+    margin: 10px;
+
+}
+.registration{
+    text-decoration:none ;
+    border: 2px solid rgb(32, 32, 72);
+    background-color:rgb(32, 32, 72) ;
+    color: white;
+    padding: 10px;
+    border-radius:20px ;
+    /*border-radius: 50px' */
+    /* condition width = height */
+}
+
+.registration1{
+    text-decoration:none ;
+    border: 2px solid rgb(255, 255, 255);
+    background-color:rgb(126, 0, 59) ;
+    color: white;
+    padding: 10px;
+    border-radius:20px ;
+    /*border-radius: 50px' */
+    /* condition width = height */
+}
+
+.hero{
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url('./dsier.png.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 250px;
+    
+    
+}
+
+.herodiv1{
+    padding-top: 100px;
+    padding: 50px;
+}
+
+.hd1{
+    color: rgb(255, 187, 0);
+    font-size: 64px;
+    font-style: bold;
+    
+}
+
+.hd2{
+    color: rgb(6, 245, 26);
+    background: rgba(122, 122, 2, 0.5);
+    font-size: 38px;
+    font-style: bold;
+   
+}
+
+.herodiv2 img{
+    width:300px;
+}
+.say{
+    text-decoration:none ;
+    border: 2px solid rgb(32, 32, 72);
+    background-color:rgb(12, 188, 194) ;
+    color: rgb(135, 113, 175);
+    padding: 10px;
+    font-size: 24px ;
+    margin-right: 20px;
+}
+
+.icons a i{
+    font-size: 32px;
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 50%;
+    
+}
+.icons {
+    padding-top: 100px;
+}
+
+.Clients{
+    background-image: url('http://st.gde-fon.com/wallpapers_original/273114_nyu-jork_-taksi_-doroga_2560x1600_www.Gde-Fon.com.jpg');
+    display: flex;
+    justify-content: space-evenly;
+    background-repeat: no-repeat;
+    background-size: fill;
+    padding: 50px;
+}
+.my{
+    background-color: rgb(32, 32, 110);
+    color: white;
+    margin: 0px;
+}
+
+.my::after{
+    content: "----------";
+}
+
+.my::before{
+    content: "----------";
+}
+
+.dedication1{
+    display: flex;
+    align-items: center;
+    color: rgb(145, 240, 37);
+}
+
+.dedication{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+
+.dedication{
+    background-image: url("https://www.gopinkcabs.com/wp-content/uploads/2021/01/4MIM.jpeg");
+
+}
+
+.dedication2{
+    color: whitesmoke;
+    font-style: Bold;
+    font-size: 12px;
+    margin-top: -20px;}
+
+.skills{
+    position: relative;
+    top: 400px;
+
+}
+.skillsdiv2 div{
+    border: 2px solid rgb(36, 36, 55);
+    background-color: white;
+    color: rgb(36, 36, 55);
+    width: 100px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 24px;
+}
+
+.skillsdiv2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    background-image: url(https://itemstore.net/html/trito/img);
+    width: 500px;
+}
+.c{
+    color: aliceblue;
+    margin-top: -20px;
+    font-style: oblique;
+    font-size: 32px;
+}
+.c11{
+    color: aliceblue;
+    margin-top: 20px;
+    font-style: oblique;
+    font-size: 32px;
+
+}
+.c12{
+    color: aliceblue;
+    margin-top: 57px;
+    font-style: oblique;
+    font-size: 32px;
+}
+.c13{
+    color: rgb(255, 255, 255);
+    margin-top: 59px;
+    font-style: oblique;
+    font-size: 32px;
+}
+.c1{
+    color: rgb(0, 255, 191);
+    margin-top: -20px;
+    font-size: 18px;
+    font-style:unset;
+}
+.q1{
+    color: aliceblue;
+    font-style: bold;
+    display: inline-block;
+    text-align: right;
+    padding-right: 46px;
+    font-size: 20px;
+    margin-top: -20px;
+}
+.q2{
+    color: aliceblue;
+    font-style: bold;
+    font-size: 20px;
+    margin-top: -55px;
+}
+.q3{
+        color: aliceblue;
+        font-style: bold;
+        font-size: 20px;
+        margin-top: -55px;
+
+}
+.dd1 img{
+    margin-top: -30px;
+}
+.q4{
+    color: aliceblue;
+    font-style: bold;
+    font-size: 20px;
+    margin-top: -20px;
+
+}

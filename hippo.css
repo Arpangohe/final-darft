@@ -1,0 +1,88 @@
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    align-items: center;
+}
+
+.navbarli img{
+    width: 100px;
+}
+
+.midnavbar{
+    display: flex;
+    list-style-type: none;
+}
+
+.midnavbar li a{
+    text-decoration: none;
+    margin: 10px;
+
+}
+.downcv{
+    text-decoration:none ;
+    border: 2px solid rgb(32, 32, 72);
+    background-color:rgb(32, 32, 72) ;
+    color: white;
+    padding: 10px;
+    border-radius:20px ;
+    /*border-radius: 50px' */
+    /* condition width = height */
+}
+
+.hero{
+    display:flex ;
+    justify-content: space-evenly;
+    background-image: url('https://itemsstore.net/html/trito/img/hero/1.jpg');
+    padding: 100px;
+}
+
+.herodiv1{
+   
+    padding-top: 100px;
+}
+
+.herodiv2 img{
+    width:500px;
+}
+.say{
+    text-decoration:none ;
+    border: 2px solid rgb(32, 32, 72);
+    background-color:rgb(255, 255, 255) ;
+    color: rgb(135, 113, 175);
+    padding: 10px;
+    font-size: 24px ;
+    margin-right: 20px;
+}
+
+.icons a i{
+    font-size: 32px;
+    margin: 20px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+    
+}
+.icons {
+    padding-top: 400px;
+}
+
+.Clients{
+    background-color: rgb(32, 32, 105);
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+.my{
+    background-color: rgb(32, 32, 105);
+    color: white;
+    margin: 0px;
+}
+
+.my::after{
+    content: "----------";
+}
+
+.my::before{
+    content: "----------";
+}

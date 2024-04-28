@@ -1,0 +1,33 @@
+inline Css
+internal class Css
+{
+    public static string
+    tag selector
+    decended selector
+    inline selector
+
+
+    < Box model>
+    1. Border
+        1. Border-width
+                    2. Border-style
+                    3. Border-color
+                    4. Border-radius
+                    5. Border-image
+                    6. Border-collapse
+                    7. Border-spacing
+    2. Margin
+
+    3. Padding
+
+    4. Background
+
+    5.
+
+    tag
+    1. anchore tag
+    2. semantic tag
+
+    html
+        hipper text markerup language 
+        
