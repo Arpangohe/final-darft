@@ -3,7 +3,7 @@
     justify-content: space-evenly;
     list-style-type: none;
     align-items: center;
-    background-color: rgb(63, 56, 37);
+    background-color: white;
     padding: 10px;
     margin: 0px;
 }
@@ -48,9 +48,8 @@
 .hero{
     display: flex;
     justify-content: space-evenly;
-    background-image: url('./dsier.png.jpg');
+    background-image: url('./santa.png');
     background-repeat: no-repeat;
-    background-size: cover;
     padding: 250px;
     
     
@@ -62,17 +61,20 @@
 }
 
 .hd1{
-    color: rgb(255, 187, 0);
+    font-family: "Times New Roman", Times, serif;
+    color: rgba(249, 245, 255, 0.938);
     font-size: 64px;
-    font-style: bold;
+    font-weight: bolder;
+    
     
 }
 
 .hd2{
-    color: rgb(6, 245, 26);
-    background: rgba(122, 122, 2, 0.5);
+    color: rgb(54, 245, 6);
     font-size: 38px;
-    font-style: bold;
+    margin-left: 40px;
+    font-weight: bolder;
+   
    
 }
 
@@ -102,17 +104,15 @@
 }
 
 .Clients{
-    background-image: url('http://st.gde-fon.com/wallpapers_original/273114_nyu-jork_-taksi_-doroga_2560x1600_www.Gde-Fon.com.jpg');
-    display: flex;
-    justify-content: space-evenly;
+    background-image: url('./white.png');
     background-repeat: no-repeat;
-    background-size: fill;
-    padding: 50px;
+    background-size: cover;
+    height: 100vh;
 }
 .my{
-    background-color: rgb(32, 32, 110);
-    color: white;
-    margin: 0px;
+    font-family: "Bebas Neue", sans-serif;
+   font-weight: 600;
+   font-style: normal;
 }
 
 .my::after{
@@ -122,34 +122,16 @@
 .my::before{
     content: "----------";
 }
-
-.dedication1{
-    display: flex;
-    align-items: center;
-    color: rgb(145, 240, 37);
-}
-
 .dedication{
-    display: flex;
-    justify-content: space-evenly;
-    padding: 50px;
+    background-image: url('./civic.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
 }
-
-.dedication{
-    background-image: url("https://www.gopinkcabs.com/wp-content/uploads/2021/01/4MIM.jpeg");
-
-}
-
-.dedication2{
-    color: whitesmoke;
-    font-style: Bold;
-    font-size: 12px;
-    margin-top: -20px;}
 
 .skills{
     position: relative;
     top: 400px;
-
 }
 .skillsdiv2 div{
     border: 2px solid rgb(36, 36, 55);
@@ -161,73 +143,90 @@
     font-size: 24px;
 }
 
-.skillsdiv2{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    justify-content: center;
-    background-image: url(https://itemstore.net/html/trito/img);
-    width: 500px;
-}
-.c{
-    color: aliceblue;
-    margin-top: -20px;
-    font-style: oblique;
-    font-size: 32px;
-}
-.c11{
-    color: aliceblue;
-    margin-top: 20px;
-    font-style: oblique;
-    font-size: 32px;
-
-}
-.c12{
-    color: aliceblue;
-    margin-top: 57px;
-    font-style: oblique;
-    font-size: 32px;
-}
-.c13{
-    color: rgb(255, 255, 255);
-    margin-top: 59px;
-    font-style: oblique;
-    font-size: 32px;
-}
-.c1{
-    color: rgb(0, 255, 191);
-    margin-top: -20px;
-    font-size: 18px;
-    font-style:unset;
-}
-.q1{
-    color: aliceblue;
-    font-style: bold;
-    display: inline-block;
-    text-align: right;
-    padding-right: 46px;
-    font-size: 20px;
-    margin-top: -20px;
-}
-.q2{
-    color: aliceblue;
-    font-style: bold;
-    font-size: 20px;
-    margin-top: -55px;
-}
-.q3{
-        color: aliceblue;
-        font-style: bold;
-        font-size: 20px;
-        margin-top: -55px;
-
-}
 .dd1 img{
     margin-top: -30px;
 }
-.q4{
-    color: aliceblue;
-    font-style: bold;
-    font-size: 20px;
-    margin-top: -20px;
+.hd2{
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  
+  
+}
+
+.dedication2{
+    
+        font-family: "Caveat", cursive;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+      
+}
+.i1{
+    padding-left: 100px;
+}
+.i2{
+    margin-top: -300px;
+    padding-left: 1100px;
+}
+.i3{
+    margin-top: 200px;
+    padding-left: 100px;
+}
+.i4{
+    margin-top: -230px;
+    padding-left: 1100px;
+}
+.dedication1{
+    padding-left: 100px;
 
 }
+.id1{
+    padding-left: 100px;
+}
+.id2{
+    margin-top: -250px;
+    padding-left: 1100px;
+}
+.id3{
+    margin-top: 250px;
+    padding-left: 150px;
+}
+.id4{
+    margin-top: -200px;
+    padding-left: 1000px;
+}
+.q1{
+    margin-top: -20px;
+    padding-left: 70px;
+}
+.q2{
+    margin-top: -50px;
+    padding-left: 40px;
+}
+.q3{
+    margin-top: -40px;
+    padding-left: 50px;
+}
+.q4{
+    margin-top: -20px;
+    padding-left: 60px;
+}
+.idd1{
+    margin-top: -10px;
+    padding-left: 50px;
+}
+.idd2{
+    margin-top: -10px;
+    padding-left: 20px;
+}
+.idd3{
+    margin-top: -10px;
+    padding-left: -30px;
+}
+.idd4{
+    margin-top: -10px;
+    padding-left: -20px;
+}
+
+
