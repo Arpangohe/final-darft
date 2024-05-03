@@ -21,3 +21,17 @@ SDLC
 	b. Story
 	c. Task
 	d. Bug
+
+
+
+
+	*/ <div class="i4">
+            <img width="180px" src="./map.png" alt="">
+        <h1 class="c13">Destination</h1>
+        </div> /*
+
+
+		.i4{
+    margin-top: 100px;
+    padding-left: 1100px;
+}

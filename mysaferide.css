@@ -104,7 +104,7 @@
 }
 
 .Clients{
-    background-image: url('./white.png');
+    background-image: url('./ftype.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -123,7 +123,7 @@
     content: "----------";
 }
 .dedication{
-    background-image: url('./civic.jpeg');
+    background-image: url('./xftype.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -166,17 +166,17 @@
     padding-left: 100px;
 }
 .i2{
-    margin-top: -300px;
-    padding-left: 1100px;
+    margin-top: 100px;
+    padding-left: 1000px;
+    color: rgb(188, 250, 45);
+    font-size: bold;
+    font-weight: bolder;
 }
 .i3{
-    margin-top: 200px;
-    padding-left: 100px;
+    margin-top: -550px;
+    padding-left: 1000px;
 }
-.i4{
-    margin-top: -230px;
-    padding-left: 1100px;
-}
+
 .dedication1{
     padding-left: 100px;
 
@@ -186,10 +186,10 @@
 }
 .id2{
     margin-top: -250px;
-    padding-left: 1100px;
+    padding-left: 1000px;
 }
 .id3{
-    margin-top: 250px;
+    margin-top: 150px;
     padding-left: 150px;
 }
 .id4{
@@ -207,10 +207,16 @@
 .q3{
     margin-top: -40px;
     padding-left: 50px;
+    color: rgb(188, 250, 45);
+    font-size: bold;
+    font-weight: bolder;
 }
 .q4{
     margin-top: -20px;
     padding-left: 60px;
+    color: rgb(188, 250, 45);
+    font-size: bold;
+    font-weight: bolder;
 }
 .idd1{
     margin-top: -10px;
@@ -218,15 +224,21 @@
 }
 .idd2{
     margin-top: -10px;
-    padding-left: 20px;
+    padding-left: 10px;
 }
 .idd3{
     margin-top: -10px;
     padding-left: -30px;
+    color: rgb(188, 250, 45);
+    font-size: bold;
+    font-weight: bolder;
 }
 .idd4{
     margin-top: -10px;
     padding-left: -20px;
+    color: rgb(188, 250, 45);
+    font-size: bold;
+    font-weight: bolder;
 }
 
 

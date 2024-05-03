@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HIPPO Sign Up</title>
+    <link rel="stylesheet" href="./mysaferide.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jersey+20+Charted&family=Sedan+SC&display=swap');
+        * {
+              font-family: "Sedan SC", serif;
+              font-weight: 400;
+              font-style: normal;
+  }
+  #regis {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+        box-shadow: 0px 0px 40px black;
+        width: 400px;
+        margin-left: auto;
+        border-radius: 20px;
+        margin-right: auto;
+        padding: 30px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url('./buggati.png');
+  }
+
+  button{
+    border: 2px solid white !important;
+    border-radius: 5px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="password"],
+
+  button{
+    width: 300px;
+    padding: 10px;
+    font-size: 20px;
+    margin: 12px;
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 2px solid white;
+    color: white;
+  }
+
+  input::placeholder{
+    color: white;
+  }
+
+  input:hover{
+    scale: 1.1;
+  }
+    </style>
+</head>
+<body>
+    
+    <div id="regis">
+        <form>
+            <div><input type="text" placeholder="First Name" required /></div>
+            <div><input type="text" placeholder="Last Name" required /></div>
+            <div><input type="email" placeholder="Enter email" required /></div>
+            <div><input type="email" placeholder="Enter Cofirm email"required /></div>
+            <div><input type="tel" placeholder="Mobile Number" required minlength="10" maxlength="10" /></div>
+            <div><input type="tel" placeholder="Confirm Mobile Number" required maxlength="10" minlength="10"/></div>
+            <div><input type="password" placeholder="Enter Password" required minlength="8"/></div>
+            <div><input type="text" placeholder="Enter Cofirm Password" required minlength="8"/></div>
+
+            <div>
+                <center><button>Registration</button></center>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
